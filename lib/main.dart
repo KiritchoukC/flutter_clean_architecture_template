@@ -17,8 +17,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'CoolSchool',
-      theme: CoolSchoolTheme.themeData,
+      title: 'Title',
+      theme: CustomTheme.themeData,
       initialRoute: RoutePaths.Home,
       onGenerateRoute: Router.generateRoute,
     );
